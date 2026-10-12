@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: #ffffff;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,16 +33,4 @@ body {
     align-items: center;
     font-size: 14px;
     font-weight: 600;
-    text-align: center;
-}
-
-.overflow-box {
-    overflow-wrap: break-word;
-    word-break: break-word;
-}
-
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
 }
